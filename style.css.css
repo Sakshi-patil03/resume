@@ -1,0 +1,70 @@
+html {
+    scroll-behavior: smooth;
+}
+
+
+body{
+    background-color: #f3dfcb;
+    line-height: 1.6;
+    font-family:'arial',  sans-serif
+    margin: 10px;
+    color:#2e2d2f;
+}
+
+
+header {
+    background-color: #475e6f;
+    color: white
+    padding: 30px;
+    text-align: center;
+    }
+
+    header h1 {
+        margin: 0;
+        font-size: 2.5em;
+        color:white;
+    }
+
+    header nav {
+        margin-top: 15px;
+        color: white;
+    }
+
+    header nav a {
+        margin: 0 10px;
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+    }
+
+    header nav a:hover {
+        text-decoration: underline;
+    }
+
+    main {
+        padding: 20px;
+    }
+
+    .card {
+        background-color:#ffffff
+        padding: 30px;
+        margin: 20px auto;
+        max-width: 500px;
+        border-radius: 20px;
+        box-shadow: 0 4px 8px rgba(0,0 ,0 ,0.1);
+        opacity: 0.9;
+        transition: opacity 0.9s ease-in-out, transform 0.9s ease-in-out;
+        border-top: 20px solid #4b5d6a;
+    }
+
+    card :hover {
+        opacity: 1;
+        transform:scale(1.02);
+    }
+
+    h2 {
+        color: #4b5d6a;
+        margin-bottom: 10px;
+    }
+
+
